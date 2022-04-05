@@ -17,11 +17,13 @@ export const App = () => {
    });
    const [mainDimensions, setGeneralDimensions] = React.useState(null);
 
-   React.useEffect(() => {
-      (vpSizes.vpWidth > constants.MIN_VP_BREAKEPOINT)
-         &&
-         getInfoFromBank(banks[0], setRates);
+   const bank = (vpSizes.vpWidth > constants.MIN_VP_BREAKEPOINT) ? banks[0] : null;
 
+   React.useEffect(() => {
+         getInfoFromBank(bank, setRates);
+   }, [bank]);
+
+   React.useEffect(() => {
       window.addEventListener("resize", () => {
          setVPSizes({
             vpWidth: window.innerWidth,
