@@ -12,7 +12,7 @@ const requestToBank = async (url) => {
 };
 
 export const getInfoFromBank = (bank, callBack) => {
-console.log('get from server')
+
   requestToBank(bank.url)
     .then(data => {
       callBack({

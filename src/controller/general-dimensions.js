@@ -1,6 +1,6 @@
 
 export const generalDimensions = (context, vpSizes) => {
-console.log('from general dimentions')
+
    if(context) {
       const isSmallSize = vpSizes.vpWidth < context.SMALL_VP_BREAKEPOINT;
       const beforeMediumSize = vpSizes.vpWidth < context.MEDIUM_VP_BREAKEPOINT;
