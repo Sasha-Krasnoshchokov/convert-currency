@@ -1,0 +1,13 @@
+
+.hover:hover{
+   cursor: pointer;
+}
+
+.hover-scale {
+   transition: transform 500ms;
+}
+
+.hover-scale:hover{
+   cursor: pointer;
+   transform: scale(1.15);
+}
