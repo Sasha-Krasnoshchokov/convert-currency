@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Sasha-Krasnoshchokov/convert-currency.git/static/css/main.073c9b0a.css",
-    "main.js": "/Sasha-Krasnoshchokov/convert-currency.git/static/js/main.c96c7941.js",
-    "static/js/787.11a192d3.chunk.js": "/Sasha-Krasnoshchokov/convert-currency.git/static/js/787.11a192d3.chunk.js",
-    "static/media/logo.svg": "/Sasha-Krasnoshchokov/convert-currency.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/Sasha-Krasnoshchokov/convert-currency.git/index.html",
-    "main.073c9b0a.css.map": "/Sasha-Krasnoshchokov/convert-currency.git/static/css/main.073c9b0a.css.map",
-    "main.c96c7941.js.map": "/Sasha-Krasnoshchokov/convert-currency.git/static/js/main.c96c7941.js.map",
-    "787.11a192d3.chunk.js.map": "/Sasha-Krasnoshchokov/convert-currency.git/static/js/787.11a192d3.chunk.js.map"
+    "main.css": "/convert-currency/static/css/main.073c9b0a.css",
+    "main.js": "/convert-currency/static/js/main.e28c7f18.js",
+    "static/js/787.11a192d3.chunk.js": "/convert-currency/static/js/787.11a192d3.chunk.js",
+    "static/media/logo.svg": "/convert-currency/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/convert-currency/index.html",
+    "main.073c9b0a.css.map": "/convert-currency/static/css/main.073c9b0a.css.map",
+    "main.e28c7f18.js.map": "/convert-currency/static/js/main.e28c7f18.js.map",
+    "787.11a192d3.chunk.js.map": "/convert-currency/static/js/787.11a192d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.c96c7941.js"
+    "static/js/main.e28c7f18.js"
   ]
 }
